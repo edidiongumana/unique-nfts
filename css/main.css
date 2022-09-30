@@ -1300,6 +1300,18 @@ ul {
   -moz-transition: 0.4s ease;
   transition: 0.4s ease;
 }
+
+
+.text1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 26px;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+
 .card__cover:hover {
   -webkit-box-shadow: 0 0 20px 0 rgba(255,88,96,0.5);
   box-shadow: 0 0 20px 0 rgba(255,88,96,0.5);
